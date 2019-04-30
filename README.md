@@ -37,9 +37,9 @@ infogan demo module for crevasse AI
 - imageio 2.4.1+
 
 ### Installation
-`bash
+```
 $ git clone https://github.com/agdal1125/infogan_demo/
-`
+```
 + install all modules in the requirements
 
 
@@ -81,19 +81,19 @@ The folder should look like this:
 
 -- CelebA
 
-`
+```
 $ cd YOUR_WORKING_DIRECTORY/infogan/tf-gans/examples/
 
 $ python3 gans.py --train --dataset celeba --dir YOUR_WORKING_DIRECTORY/infogan_demo
-`
+```
 
 -- mnist
 
-`
+```
 $ cd /home/nowgeun1/Desktop/infogan/tf-gans/examples/
 
 $ python3 gans.py --train --dataset mnist --dir YOUR_WORKING_DIRECTORY/infogan_demo
-`
+```
 
 
 
@@ -101,27 +101,27 @@ $ python3 gans.py --train --dataset mnist --dir YOUR_WORKING_DIRECTORY/infogan_d
 ### Server Usage (for Crevasse)
 
 1. 개발환경 접속
-`
+```
 $source activate infogan
-`
+```
 
 2. 훈련
 
 -- CelebA
 
-`
+```
 $ cd /home/nowgeun1/Desktop/infogan/tf-gans/examples/
 
 $ python3 gans.py --train --dataset celeba 
-`
+```
 
 -- mnist
 
-`
+```
 $ cd /home/nowgeun1/Desktop/infogan/tf-gans/examples/
 
 $ python3 gans.py --train --dataset mnist 
-`
+```
 
 3. train log file & generated된 이미지 저장 위치:
 /home/nowgeun1/Desktop/infogan/data/out/gans/infogan/
