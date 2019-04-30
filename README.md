@@ -83,6 +83,7 @@ The folder should look like this:
 
 `
 $ cd YOUR_WORKING_DIRECTORY/infogan/tf-gans/examples/
+
 $ python3 gans.py --train --dataset celeba --dir YOUR_WORKING_DIRECTORY/infogan_demo
 `
 
@@ -90,6 +91,7 @@ $ python3 gans.py --train --dataset celeba --dir YOUR_WORKING_DIRECTORY/infogan_
 
 `
 $ cd /home/nowgeun1/Desktop/infogan/tf-gans/examples/
+
 $ python3 gans.py --train --dataset mnist --dir YOUR_WORKING_DIRECTORY/infogan_demo
 `
 
@@ -109,14 +111,16 @@ $source activate infogan
 
 `
 $ cd /home/nowgeun1/Desktop/infogan/tf-gans/examples/
-$ python3 gans.py --train --dataset celeba (CelebA데이터)
+
+$ python3 gans.py --train --dataset celeba 
 `
 
 -- mnist
 
 `
 $ cd /home/nowgeun1/Desktop/infogan/tf-gans/examples/
-$ python3 gans.py --train --dataset mnist (mnist 데이터)
+
+$ python3 gans.py --train --dataset mnist 
 `
 
 3. train log file & generated된 이미지 저장 위치:
