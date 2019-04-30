@@ -80,12 +80,15 @@ The folder should look like this:
 ### General Usage
 
 -- CelebA
-`bash
+
+`
 $ cd YOUR_WORKING_DIRECTORY/infogan/tf-gans/examples/
 $ python3 gans.py --train --dataset celeba --dir YOUR_WORKING_DIRECTORY/infogan_demo
 `
+
 -- mnist
-`bash
+
+`
 $ cd /home/nowgeun1/Desktop/infogan/tf-gans/examples/
 $ python3 gans.py --train --dataset mnist --dir YOUR_WORKING_DIRECTORY/infogan_demo
 `
@@ -96,18 +99,22 @@ $ python3 gans.py --train --dataset mnist --dir YOUR_WORKING_DIRECTORY/infogan_d
 ### Server Usage (for Crevasse)
 
 1. 개발환경 접속
-`bash
+`
 $source activate infogan
 `
 
 2. 훈련
+
 -- CelebA
-`bash
+
+`
 $ cd /home/nowgeun1/Desktop/infogan/tf-gans/examples/
 $ python3 gans.py --train --dataset celeba (CelebA데이터)
 `
+
 -- mnist
-`bash
+
+`
 $ cd /home/nowgeun1/Desktop/infogan/tf-gans/examples/
 $ python3 gans.py --train --dataset mnist (mnist 데이터)
 `
